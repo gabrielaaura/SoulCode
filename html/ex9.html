@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <label for="PrimeiroNome">Primeiro Nome: </label><br>
+        <input type="text" id="PrimeiroNome" placeholder="Digite aqui " name="PrimeiroNome"><br>
+        <br>
+        <label for="SobreNome">Sobrenome: </label><br>
+        <input type="text" id="SobreNome" placeholder="Digite aqui " name="SobreNome"><br>
+        <br>
+        <label for="cpf">cpf: </label><br>
+        <input type="text" id="cpf" placeholder="cpf" name="cpf"><br>
+        <br>
+        <label for="email">Email: </label><br>
+        <input type="email" id="email" placeholder="Digite aqui" name="email"><br>
+        <br>
+        <label for="dataNascimento">Data de Nascimento: </label><br>
+        <input type="date" id="dataNascimento" name="dataNascimento"><br>
+        <br>
+        <label for="PaiNome">Nome pai: </label><br>
+        <input type="text" id="PaiNome" placeholder=" Digite aqui" name="PaiNome"><br>
+        <br>
+        <label for="MaeNome">Nome mãe: </label><br>
+        <input type="text" id="MaeNome" placeholder=" Digite aqui" name="MaeNome"><br>
+        <br>
+        <label for="telefone">Telefone</label><br>
+        <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+        <br><br>
+        <label for="origem">Origem</label><br>
+        <select name="origem" id="origem">
+            <option value="Web">Web</option>
+            <option value="Jornal">Jornal</option>
+            <option value="Rede social">Rede social</option>
+            <option value="Rádio">Rádio</option>
+            <option value="tv">tv</option>
+        </select><br>
+        <br>
+        <div>
+            <input type = "checkbox" id = "TermosUso" name = "TermosUso" value = "TermosUso">
+            <label for = "TermosUso">Concordo com os termos de uso</label>
+        </div>
+
+        <div>
+            <input type = "checkbox" id = "Email" name = "Email" value = "Email">
+            <label for = "Email">aceito o envio de email com informações</label>
+        </div>
+
+        <br><br>
+        <input type="submit" value="Envia">
+</body>
+</html>
