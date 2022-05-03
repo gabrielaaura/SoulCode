@@ -10,15 +10,21 @@
     <form >
         <label for="nome">Nome: </label><br>
         <input type="text" id="nome" placeholder="Digite aqui o seu nome" name="nome"><br>
-
-        <label for="tipo">Tipo: </label><br>
-        <input type="text" id="tipo" placeholder="Digite aqui o tipo do pokemon" name="tipo"><br>
-
+        
         <label for="email">Email: </label><br>
         <input type="email" id="email" placeholder="Digite aqui o email do pokemon" name="email"><br>
 
         <label for="dataNascimento">Data de Nascimento: </label><br>
         <input type="date" id="dataNascimento" name="dataNascimento"><br>
+
+        <label for="tipo">Tipo Pokemon</label><br>
+       <select name="tipoPokemon" id="tipoPokemon">
+           <option value="Fogo">Fogo</option>
+           <option value="Agua">Agua</option>
+           <option value="Terra">Terra</option>
+           <option value="Ar">Ar</option>
+           <option value="Coração">Coração</option>
+       </select><br>
 
         <label for="senha">Senha: </label><br>
         <input type="password" id="senha" name="senha"><br>
@@ -26,6 +32,8 @@
         <label for="confirma senha">Confirmação da senha: </label><br>
         <input type="password" id="confirma senha" name="confirma senha">
 
+        <br><br>
+        <input type="submit" value="Envia">
 
 </body>
 </html>
