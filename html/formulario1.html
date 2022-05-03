@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Meu formulário</h1>
+    <!-- O form possui dois atributos
+    
+        method -> a forma de envio que essas informações serão repassadas. GET e POST
+        GET -> Os dados são visiveis na URL
+        POST -> Os dados são ocultos
+    
+        action -> para onde eu vou mandar os dados?
+    -->
+    <form method="get">
+        <!-- Todas as informações que você quer fazer envio, fica dentro dessa tag do elemento form 
+        
+        types mais comuns são: text, email, date, number, submit, password -->
+        <label for="nome">Nome: </label><br>
+        <input type="text" id="nome" placeholder="Digite aqui o seu nome" name="nome"><br>
+
+        <label for="sobrenome" placeholder="Digite">Sobrenome: </label><br>
+        <input type="text" id="sobrenome" placeholder="Digite o seu sobrenome" name="sobrenome"><br>
+
+        <label for="dataNascimento">Data de Nascimento: </label><br>
+        <input type="date" id="dataNascimento" name="dataNascimento"><br>
+
+        <label for="senha">Senha: </label><br>
+        <input type="password" id="senha" name="senha">
+
+        <!-- 
+            Botões de envio    
+            submit -> realiza o envio  dos dados do form.
+            button -> geralmente ele vai vinculado a uma ação JS.
+        -->
+        <br><br>
+        <input type="submit" value="Envia">
+    </form>
+
+    <!-- 
+         CRIE UM FORMULARIO COM OS SEGUINTES CAMPOS
+         NOME DO POKEMON
+         TIPO DO POKEMON
+         EMAIL DO POKEMON
+         DATA DE NASCIMENTO 
+         NIVEL DO POKEMON
+         SENHA
+         SENHA DE CONFIRMAÇÃO
+         BOTÃO DE ENVIAR
+     -->
+    
+
+</body>
+</html>
