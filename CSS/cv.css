@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=DM+Sans&family=Fira+Sans&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  nav{
+    background: #d9d9d9;
+    height: 200px;
+    width: 100%;
+    padding: 0 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav{
+    justify-content: center;
+    line-height: 0.01;
+    margin-right: 300px;
+}
+
+.foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    margin-right: 20px;
+    box-shadow: #545454;
+}
+.nome{     
+    font-family: 'Abril Fatface', cursive;
+    color: #545454;
+    font-size: 50px;
+    font-weight: 200;
+  
+}
+.profissao{
+    color: #545454;
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 200;
+    margin-top: 33px;
+
+}
+  .flex-container {
+    box-sizing: border-box;
+    padding: 45px;
+    background-color: white;
+    color: #545454;
+    min-height: 100vh;
+    display: flex;
+    gap: 100px;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.flex-container h1{  
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  width: 100%;
+  background-color: #d9d9d9;
+}
+   
+  
+  .flex-item {
+    background-color: white;
+    flex: 1 1 150px ;
+    height: 100%;
+    width: 50%;
+  }

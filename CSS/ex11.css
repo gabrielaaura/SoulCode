@@ -1,0 +1,41 @@
+.hs h1{
+    color: red;
+    background-color: cyan;
+}
+
+.hs h2{
+    color: #AFFBBB;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+.hs h3{
+    background-color: #654456;
+    color: rgb(0, 255, 100);
+    font-size: 20pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu h1{
+    color: red;
+    background-color: cyan;
+}
+
+.menu h3{
+    background-color: #654456;
+    color: rgb(0, 255, 100);
+    font-size: 20pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu p{
+    color: #123abc;
+    background-color: black;
+    font-size: 15px;
+}
+
+.h1Doidao{
+    color: pink;
+    background-color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

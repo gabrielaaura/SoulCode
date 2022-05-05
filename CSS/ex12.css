@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+.div1{
+    width: 50%;
+    float: left;
+    background-color: darkmagenta;
+    height: 1092px;  
+    color: white;
+}
+
+.div1 h1{
+    margin: 25px;
+}
+
+.div1 p{
+    margin: 25px;
+}
+
+.div1 img{
+    width: 90%; 
+    margin: 30px; 
+    border-radius: 12px;
+    height: 600px;
+}
+
+.div2{
+    width: 50%;
+    justify-content: center;
+    float: right;
+    background-color: darkorchid;
+   
+}
+
+.div2 img{
+    width: 90%; 
+    height: 300px;
+    margin: 30px; 
+    border-radius: 12px;
+    
+}
