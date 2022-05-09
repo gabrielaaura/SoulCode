@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(132, 216, 255);
+}
+
+.classe1 h1{
+    font-size: 30px;
+    color: blue;
+    width: 100%;
+    background-color:rgb(107, 168, 246);
+}
+
+.classe1 h3 {
+    color:brown;
+}

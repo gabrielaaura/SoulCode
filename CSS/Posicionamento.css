@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.esqcima{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+
+.esqbaixo{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+
+.dircima{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+
+.dirbaixo{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    position: fixed;
+    right: 20px; 
+    bottom: 20px;
+}

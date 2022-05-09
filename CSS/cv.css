@@ -30,7 +30,7 @@
     align-items: center;
     margin-right: 20px;
     box-shadow: #545454;
-    border: 3px solid white;
+    border: 3px solid #545454;
 }
 .nome{     
     font-family: 'Raleway', sans-serif;
@@ -170,7 +170,7 @@ ul li::before {
   left: 0;
   top: 0;
   background: #545454;
-  width: 26%;
+  width: 50%;
 }
 
 .linha5{
@@ -187,5 +187,52 @@ ul li::before {
   left: 0;
   top: 0;
   background: #545454;
-  width: 5%;
+  width: 9%;
 }
+
+.links-redes h4{
+  font-size: 18px;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.links-redes h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: black;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.links-redes ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color:  #d3eee1;
+  text-decoration: none;
+  font-weight: 300;
+  color: #545454;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.links-redes .contatos a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  color: rgba(3, 106, 129, 0.6);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #d3eee1;
+  color: #545454;
+  transition: all 0.5s ease;
+  border: 3px solid #545454;
+}
+

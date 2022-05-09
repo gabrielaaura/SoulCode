@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=DM+Sans&family=Fira+Sans&family=Raleway:wght@400;700&display=swap');
+
+.hs{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #545454;
+}
+
+body{
+    background-color: bisque;
+}
+
+.foto{
+    width: 400px;
+    height: 200px;
+    border-radius: 12px;
+    border: 3px solid white;
+    margin: 30px; 
+}
